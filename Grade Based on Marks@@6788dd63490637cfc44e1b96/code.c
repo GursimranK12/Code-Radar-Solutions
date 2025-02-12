@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main(){
+int main(){
     int n;
     scanf("%d",&n);
     if(n>=90){
@@ -12,4 +12,5 @@ void main(){
     printf("D");}
     else {
     printf("F");}
+    return 0;
 }
