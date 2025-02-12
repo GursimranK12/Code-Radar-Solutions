@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main(){
+int main(){
     int n;
     scanf("%d",&n);
     if(n>=1 && n<=100){
@@ -8,4 +8,5 @@ void main(){
     else{
         printf("Out Of Range\n");
     }
+    return 0;
 }
