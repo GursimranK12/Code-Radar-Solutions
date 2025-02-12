@@ -2,10 +2,10 @@
 void main(){
     int a,b;
     scanf("%d %d",&a ,&b);
-    if(a>b && b>a){
+    if(a>b){
         printf("%d");
     }
-    else{
+    else if(b>a){
         printf("%d");
     }
 }
