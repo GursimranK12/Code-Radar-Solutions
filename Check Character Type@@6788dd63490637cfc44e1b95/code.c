@@ -4,7 +4,7 @@ int main(){
     char ch;
     scanf("%c",&ch);
     if(isalpha(ch)){
-        char toupper = ch;
+        ch =  toupper(ch);
         if(ch=='A' || ch=='I' || ch=='E' || ch=='O' || ch=='U'){
             printf("Vowel");
         }
