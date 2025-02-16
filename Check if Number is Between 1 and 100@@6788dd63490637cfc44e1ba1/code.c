@@ -1,7 +1,9 @@
 #include <stdio.h>
 void main(){
     int n;
-    scanf("%d",&n);
+    if(scanf("%d",&n) != 1){
+        return 1;
+    }
     if(n>=1 && n<=100){
         printf("In Range\n");
     } else{
