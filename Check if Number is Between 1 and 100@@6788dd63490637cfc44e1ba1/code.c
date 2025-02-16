@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main(){
+int main(){
     int n;
     if(scanf("%d",&n) != 1){
         return 1;
@@ -9,4 +9,5 @@ void main(){
     } else{
         printf("Out Of Range\n");
     }
+    return 0;
 }
