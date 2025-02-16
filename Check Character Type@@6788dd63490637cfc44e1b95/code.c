@@ -6,10 +6,10 @@ void main(){
     if(isalpha(ch)){
         ch = toupper(ch);
         if(ch=='A || ch=='E || ch=='I' || ch=='0' || ch=='U'){
-            printf("Vowels\n");
+            printf("Vowel\n");
         }
         else{
-            printf("Consonants\n");
+            printf("Consonant\n");
         }
     }
     else if(isdigit(ch)){
