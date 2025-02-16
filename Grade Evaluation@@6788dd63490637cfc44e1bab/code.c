@@ -1,6 +1,5 @@
 #include <stdio.h>
 int main(){
-    int char;
     char ch;
     scanf("%c",&ch);
     case 'A': 
