@@ -3,9 +3,9 @@ void main(){
     int n;
     scanf("%d",&n);
     if(n>=1 && n<=100){
-        printf("In Range");
+        printf("In Range\n");
     }
     else{
-        printf("Not In Range");
+        printf("Not In Range\n");
     }
 }
