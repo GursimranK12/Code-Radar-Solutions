@@ -1,22 +1,23 @@
 #include<stdio.h>
 #include<ctype.h>
-void main(){
+int main(){
     char ch;
     scanf("%c",&ch);
     if(isalpha(ch)){
-        ch=toupper(ch);
-        if(ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'){
-            printf("Vowel\n");
+        char toupper = ch;
+        if(ch=='A' || ch=='I' || ch=='E' || ch=='O' || ch=='U'){
+            printf("Vowel");
         }
         else{
-            printf("Consonant\n");
+            printf("Consonant");
         }
+
     }
-    else if(isdigit(ch)){
-        printf("Digit\n");
+    else if(isdigit){
+        printf("Digit");
     }
     else{
-        printf("Special Character\n");
+        printf("Special Character");
     }
-
+    return 0;
 }
