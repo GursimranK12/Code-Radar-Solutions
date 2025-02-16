@@ -4,19 +4,19 @@ int main(){
     char ch;
     scanf("%c",&ch);
     case 'A': 
-    printf("Excellent");
+    printf("Excellent\n");
     break;
     case 'B':
-    printf("Good");
+    printf("Good\n");
     break;
     case 'C':
-    printf("Average");
+    printf("Average\n");
     break;
     case 'D':
-    printf("Below Average"):
+    printf("Below Average\n"):
     break;
     case 'F':
-    printf("Fail");
+    printf("Fail\n");
     break; 
     return 0;
 }
